@@ -18,7 +18,7 @@ AWS_EB_APP_NAME = 'dojotest-dojojump-CD'
 		stage('Build') {
 
 			steps {
-				sh 'docker build -t chandradeoarya/dojo-jump:latest .'
+				sh 'docker build -t nourahalanazi/dojo-jump:latest .'
 			}
 		}
 
@@ -32,7 +32,7 @@ AWS_EB_APP_NAME = 'dojotest-dojojump-CD'
 		stage('Push') {
 
 			steps {
-				sh 'docker push chandradeoarya/dojo-jump:latest'
+				sh 'docker push nourahalanazi/dojo-jump:latest'
 			}
 		}
 
