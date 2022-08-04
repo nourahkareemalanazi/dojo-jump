@@ -3,7 +3,7 @@ pipeline{
 	agent any
 
 	environment {
-		DOCKERHUB_CREDENTIALS=credentials('nourah-dockerhub')
+		DOCKERHUB_CREDENTIALS=credentials('nourah-hub')
 	}
 
 	stages {
